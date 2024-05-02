@@ -1,0 +1,39 @@
+.navbar
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo
+{
+    display: flex;
+    column-gap: 8px;
+}
+
+.logo img
+{  
+    height: 30px;
+    width: 30px;
+}
+
+.logo span
+{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ul
+{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+}
+
+.contact
+{
+    border: 1px solid white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

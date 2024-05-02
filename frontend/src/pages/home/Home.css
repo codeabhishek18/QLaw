@@ -1,0 +1,9 @@
+*{
+    background-color: var(--tertiary-color);
+    color: white;
+}
+
+.home
+{
+    margin: 0 100px 100px 100px;
+}

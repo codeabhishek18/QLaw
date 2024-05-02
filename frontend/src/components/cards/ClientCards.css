@@ -1,0 +1,101 @@
+.cards-container
+{
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.cards--header
+{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards--header h1
+{
+    font-size: 54px;
+}
+
+.card-head h3
+{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card-head p
+{
+    font-size: 14px;
+}
+
+.cards
+{
+    display: flex;
+    column-gap: 20px;
+    transition: transform 0.5s ease;
+}
+
+.slide
+{
+    padding: 20px;
+    width: 380px;
+    height: 360px;
+    border: 1px solid #474747;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.slide p, slide h3
+{
+    color: #7a7a7a; 
+}
+
+.slide img
+{
+    background-color: white;
+    width: 80px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.slide h1, .slide p
+{
+    background: none;
+}
+
+.left
+{
+    height:32px;
+    aspect-ratio: 1/1;
+    background: none;
+}
+
+.right
+{
+    height:32px;
+    aspect-ratio: 1/1;
+    background: none;
+}
+
+.navigation
+{
+    display: flex;
+    column-gap: 4px;
+}
+
+.navigation button:last-child
+{
+    background-color: var(--primary-color);
+}
+
+.navigation button
+{
+    height:90px;
+    aspect-ratio: 1/1;
+    border: 0;
+    background-color: #E6E6E6;
+    border-radius: 50%;
+}
+

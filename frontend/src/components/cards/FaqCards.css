@@ -1,0 +1,26 @@
+.hr
+{
+    width: 100%;
+    height: 1px;
+    background-color: var(--secondary-color);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.faq-data
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-data img
+{
+    width: 28px;
+    height: 28px;
+}
+
+.faq-data p
+{
+    font-size: 18px;
+    font-weight: 500;
+}

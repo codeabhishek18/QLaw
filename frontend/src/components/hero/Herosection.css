@@ -1,0 +1,100 @@
+.hero-container
+{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.hero-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 30px;
+    max-width: 50%;
+    font-size: 16px;
+}
+
+.hero-content h1
+{
+    font-size: 66px;
+}
+
+.input-email
+{
+    position: relative;
+    width: 350px;
+}
+
+.input-email img
+{
+    width: 16px;
+    height: 12px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    background: none;
+}
+
+.input-email input
+{
+    width: 100%;
+    padding: 15px;
+    padding-left: 50px;
+    border-radius: 30px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    font-size: 16px;
+}
+
+.input-email button
+{
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 0;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hero-content p
+{
+    color: var(--primary-text-color);
+    line-height: 24px;
+}
+
+.hero-image
+{
+    height: 460px;
+    width: 460px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img
+{
+    top: -55px;
+    height: 520px;
+    width: 400px;
+    object-fit: cover;
+    background: none;
+    position: absolute;
+    border-bottom-right-radius: 20px;
+}
+
+.background
+{
+    height: 460px;
+    width: 460px;
+    background-color: var(--primary-color);
+    top: 100px;
+    border-radius: 50px;
+}

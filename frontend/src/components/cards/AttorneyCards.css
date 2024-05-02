@@ -1,0 +1,47 @@
+.attorney-cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.attorney-card
+{
+    display: flex;
+    width:380px;
+    column-gap: 20px;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+.attorney-card img
+{
+    width: 68px;
+    height: 68px;
+}
+
+.card-content
+{
+    display: flex;
+    width: 200px;
+    row-gap: 5px;
+    flex-direction: column;
+}
+
+.card-content p
+{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card-content span
+{
+    font-size: 14px;
+    color: var(--primary-text-color);
+}
+
+.highlight-card 
+{
+    background-color: var(--primary-color);
+}

@@ -1,0 +1,55 @@
+.cards-header
+{
+    margin: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.card
+{
+    padding: 20px;
+    width: 380px;
+    height: 360px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card button
+{
+    width: 120px;
+    border: 0;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card p
+{
+    color: var(--primary-text-color)
+}
+
+.card img
+{
+    background-color: white;
+    width: 80px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.card h1, .card p
+{
+    background: none;
+}
+
+.secondary
+{
+    background-color: var(--secondary-color);
+}
