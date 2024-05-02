@@ -23,7 +23,7 @@ const FaqCards = () =>
             {faqData.map((data) =>
             (
                 <div key={data.id}>
-                    <div className="hr"></div>
+                    <div className="faq-hr"></div>
                     <div className="faq-data">
                         <p>{data.que}</p>
                         <img src={Plus} alt="image"/>

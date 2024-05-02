@@ -5,6 +5,7 @@ const Attorneys = () =>
 {
     return(
         <div className="attorneys">
+            <h1>Our Team</h1>
             <AttorneyCards/>
         </div>
     )

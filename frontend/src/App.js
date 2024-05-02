@@ -1,5 +1,7 @@
 import './App.css';
 import FAQ from './components/faq/FAQ';
+import Footer from './components/footer/Footer';
+import Form from './components/form/Form';
 import About from './pages/about/About';
 import Areas from './pages/areas/Areas';
 import Attorneys from './pages/attroneys/Attorneys';
@@ -13,6 +15,8 @@ function App() {
       <Areas/>
       <Attorneys/>
       <FAQ/>
+      <Form/>
+      <Footer/>
     </div>
   );
 }

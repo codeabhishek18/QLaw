@@ -1,0 +1,43 @@
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    padding: 100px;
+    padding-top: 0;
+}
+
+.footer-start
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.social-icons
+{
+    display: flex;
+    column-gap: 16px;
+}
+
+.icons
+{
+    width: 30px;
+    height: 30px;
+}
+
+.footer-terms
+{
+    display: flex;
+    column-gap: 30px;
+    font-size: 14px;
+}
+
+.footer-ul
+{
+    column-gap: 100px;
+}

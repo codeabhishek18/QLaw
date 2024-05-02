@@ -7,8 +7,8 @@ const About = () =>
     return(
         <div className="about-container">
             <div className="about-header">
-            <h1>Let’s Introduce Ourself</h1>
-            <span></span>
+                <h1>Let’s Introduce Ourself</h1>
+            <div className='hr'></div>
             <div className="about-content">
                 <h1>Criminal Lawyer</h1>
                 <p>Amet minim mollit non deserunt ullamco est

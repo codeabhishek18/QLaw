@@ -1,11 +1,13 @@
 .about-container
-{}
+{
+    margin: 100px;
+}
 
 .about-header
 {
-    margin: 100px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .about-header h1
@@ -14,7 +16,7 @@
     font-weight: 500;
 }
 
-.about-header span
+.hr
 {
     height: 140px;
     width: 2px;

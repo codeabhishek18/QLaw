@@ -1,0 +1,51 @@
+.form
+{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: 80px;
+}
+
+.form h1
+{
+    font-size: 55px;
+    font-weight: 500;
+    background-color: var(--secondary-color);
+}
+
+.form-content input
+{
+    height: 50px;
+    width: 250px;
+    padding: 10px;
+    background-color: white;
+    border: 0;
+    font-style: italic;
+}
+
+.form-content
+{
+    margin-top: 30px;
+    display: flex;
+    column-gap: 5px;
+    font-size: 14px;
+    background-color: var(--secondary-color);
+}
+
+.name
+{
+    border-radius: 8px 0 0 8px;
+}
+
+.form-content button
+{
+    background-color: var(--primary-color);
+    width: 100px;
+    height: 50px;
+    color: black;
+    border: 0;
+    font-weight: 500;
+    border-radius: 0 8px 8px 0;
+}

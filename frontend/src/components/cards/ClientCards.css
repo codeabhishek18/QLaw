@@ -6,20 +6,25 @@
 
 .cards--header
 {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .cards--header h1
 {
     font-size: 54px;
+    max-width: 40%;
+    font-weight: 600;
 }
+
 
 .card-head h3
 {
     font-size: 24px;
     font-weight: 600;
+    margin-bottom: 8px;
 }
 
 .card-head p
