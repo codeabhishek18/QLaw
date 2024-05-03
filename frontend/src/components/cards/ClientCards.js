@@ -28,6 +28,48 @@ export const ClientData = [
         company: 'CEO of Hunt',
         review: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sitaliqua dolor do amet sint. Velit officia'
     },
+    {
+        id: 1,
+        dp: Client1,
+        name: 'Jane Copper',
+        company: 'CEO of Hunt',
+        review: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sitaliqua dolor do amet sint. Velit officia'
+    },
+    {
+        id: 2,
+        dp: Client2,
+        name: 'Devon Lane',
+        company: 'CEO of Hunt',
+        review: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sitaliqua dolor do amet sint. Velit officia'
+    },
+    {
+        id: 3,
+        dp: Client3,
+        name: 'Robert Fox',
+        company: 'CEO of Hunt',
+        review: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sitaliqua dolor do amet sint. Velit officia'
+    },
+    {
+        id: 1,
+        dp: Client1,
+        name: 'Jane Copper',
+        company: 'CEO of Hunt',
+        review: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sitaliqua dolor do amet sint. Velit officia'
+    },
+    {
+        id: 2,
+        dp: Client2,
+        name: 'Devon Lane',
+        company: 'CEO of Hunt',
+        review: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sitaliqua dolor do amet sint. Velit officia'
+    },
+    {
+        id: 3,
+        dp: Client3,
+        name: 'Robert Fox',
+        company: 'CEO of Hunt',
+        review: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sitaliqua dolor do amet sint. Velit officia'
+    },
 ] 
 
 const ClientCards = () =>
@@ -53,7 +95,7 @@ const ClientCards = () =>
                     <button onClick={gotoNext}><img className="right"  src={Right} alt="right-icon"/></button>
                 </div>
             </div>
-            <div className="cards" style={{ transform: `translateX(-${currentIndex * 32.5}%)` }}>
+            <div className="cards" style={{ transform: `translateX(-${currentIndex * 400}px)` }}>
             {ClientData.map((client)=>
             (
                 <div key={client.id} className="slide">

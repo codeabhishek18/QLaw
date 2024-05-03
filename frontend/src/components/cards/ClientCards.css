@@ -1,7 +1,7 @@
 .cards-container
 {
     margin-bottom: 30px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .cards--header
@@ -15,7 +15,6 @@
 .cards--header h1
 {
     font-size: 54px;
-    max-width: 40%;
     font-weight: 600;
 }
 
@@ -42,7 +41,7 @@
 .slide
 {
     padding: 20px;
-    width: 380px;
+    min-width: 380px;
     height: 360px;
     border: 1px solid #474747;
     border-radius: 10px;
@@ -62,7 +61,6 @@
     width: 80px;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    padding: 10px;
 }
 
 .slide h1, .slide p
@@ -72,14 +70,14 @@
 
 .left
 {
-    height:32px;
+    height:12px;
     aspect-ratio: 1/1;
     background: none;
 }
 
 .right
 {
-    height:32px;
+    height:12px;
     aspect-ratio: 1/1;
     background: none;
 }
@@ -97,7 +95,7 @@
 
 .navigation button
 {
-    height:90px;
+    height:40px;
     aspect-ratio: 1/1;
     border: 0;
     background-color: #E6E6E6;

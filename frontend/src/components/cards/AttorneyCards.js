@@ -52,7 +52,7 @@ const AttorneyCards = () =>
             {AttorneysData.map((attorney)=>
             (
                 <div key={attorney.id} className={attorney.name === 'Sanfole' ? "highlight-card attorney-card" : "attorney-card"}>
-                    <img  className={attorney.name === 'Sanfole' ? "highlight-card" : " "} src={attorney.image} alt="image"/>
+                    <img  className={attorney.name === 'Sanfole' ? "highlight-card" : " "} src={attorney.image} alt="Profile"/>
                     <div className={attorney.name === 'Sanfole' ? "highlight-card card-content" : "card-content"}>
                         <p className={attorney.name === 'Sanfole' ? "highlight-card" : " "}>{attorney.name}</p>
                         <span className={attorney.name === 'Sanfole' ? "highlight-card" : " "}>{attorney.cases}</span>

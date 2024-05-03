@@ -1,10 +1,11 @@
 .about-container
 {
-    margin: 100px;
+    padding: 60px 100px;
 }
 
 .about-header
 {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
@@ -25,7 +26,7 @@
 
 .about-content
 {
-    max-width: 475px;
+    margin-left: 50px;
 }
 
 .about-content h1
@@ -39,4 +40,26 @@
     font-size: 18px;
     color: #474747;
     line-height: 24px;
+}
+
+@media screen and (max-width:1020px)
+{
+    .about-header
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-content
+    {
+        width: 50%;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .hr
+    {
+        height: 0;
+    }   
+
 }

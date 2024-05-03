@@ -3,6 +3,8 @@
     margin-top: 50px;
     display: flex;
     column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
 }
 
 .card

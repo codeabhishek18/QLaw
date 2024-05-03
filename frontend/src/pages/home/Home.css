@@ -1,9 +1,14 @@
-*{
-    background-color: var(--tertiary-color);
-    color: white;
-}
-
 .home
 {
-    margin: 0 100px 100px 100px;
+    background-color: black;
+    color: white;
+    padding: 60px 100px;
+}
+
+@media screen and (max-width: 480px) 
+{
+    .home
+    {
+        padding: 20px 60px;
+    }
 }

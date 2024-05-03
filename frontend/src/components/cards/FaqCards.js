@@ -26,7 +26,7 @@ const FaqCards = () =>
                     <div className="faq-hr"></div>
                     <div className="faq-data">
                         <p>{data.que}</p>
-                        <img src={Plus} alt="image"/>
+                        <img src={Plus} alt="dropdown"/>
                     </div>
                 </div>
             ))}
