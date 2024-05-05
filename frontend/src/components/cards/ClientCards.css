@@ -1,6 +1,7 @@
 .cards-container
 {
     margin-bottom: 30px;
+    margin: 60px;
     overflow-x: hidden;
 }
 
